@@ -12,3 +12,5 @@ CREATE TABLE `sqljava`.`people_sqlandjava`(
 `firstname`VARCHAR(45)NOT NULL,
 `lastname`VARCHAR(45)NOT NULL,
 PRIMARY KEY(`person_id`));
+
+INSERT INTO `sqljava`.`people_sqlandjava`(`person_id`,`firstname`,`lastname`)VALUES('1','Anna','Bolt');
