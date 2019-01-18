@@ -4,3 +4,5 @@ Uppgift med SQL-kod och JAVA-kod
 SQL-code:
 
 CREATE DATABASE sqlandjava;
+
+CREATE SCHEMA `sqljava`;
