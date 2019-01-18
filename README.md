@@ -14,3 +14,6 @@ CREATE TABLE `sqljava`.`people_sqlandjava`(
 PRIMARY KEY(`person_id`));
 
 INSERT INTO `sqljava`.`people_sqlandjava`(`person_id`,`firstname`,`lastname`)VALUES('1','Anna','Bolt');
+INSERT INTO `sqljava`.`people_sqlandjava`(`person_id`,`firstname`,`lastname`)VALUES();
+INSERT INTO `sqljava`.`people_sqlandjava`(`person_id`,`firstname`,`lastname`)VALUES();
+INSERT INTO `sqljava`.`people_sqlandjava`(`person_id`,`firstname`,`lastname`)VALUES();
