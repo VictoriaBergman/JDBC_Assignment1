@@ -17,3 +17,7 @@ INSERT INTO `sqljava`.`people_sqlandjava`(`person_id`,`firstname`,`lastname`)VAL
 INSERT INTO `sqljava`.`people_sqlandjava`(`person_id`,`firstname`,`lastname`)VALUES('2','Carl','Dolk');
 INSERT INTO `sqljava`.`people_sqlandjava`(`person_id`,`firstname`,`lastname`)VALUES('3','Erik','Fram');
 INSERT INTO `sqljava`.`people_sqlandjava`(`person_id`,`firstname`,`lastname`)VALUES('4','Gina','Hult');
+
+CREATE USER username@localhost IDENTIFIED BY 'password';
+
+GRANT SELECT ON sqlandjava.people_sqlandjava TO user@localhost;
